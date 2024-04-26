@@ -25,8 +25,6 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        new JsonFile(this, this).execute(JSON_FILE);
     }
 
     @Override
