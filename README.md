@@ -11,4 +11,7 @@ gjort så att en datan om de olika bergen hämtas och läggs till i en lista.
         }
 
 ```
+Det koden gör är att den går igenom listan av alla bergen och lägger till namnet på bergsobjectet i listan items. 
+Bilder läggs i samma mapp som markdown-filen.
+
 ![](Screenshot.png)
